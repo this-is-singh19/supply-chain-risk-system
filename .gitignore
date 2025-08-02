@@ -1,0 +1,34 @@
+# Java / Maven
+target/
+*.class
+*.log
+*.jar
+*.war
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# Node
+node_modules/
+dist/
+.env
+
+# Rust
+/target
+**/*.rs.bk
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Others
+coverage/
