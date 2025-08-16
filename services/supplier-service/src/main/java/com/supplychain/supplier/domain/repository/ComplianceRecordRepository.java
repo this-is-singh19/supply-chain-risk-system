@@ -1,5 +1,11 @@
 package com.supplychain.supplier.domain.repository;
 
-public class ComplianceRecordRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.supplychain.supplier.domain.model.ComplianceRecord;
+
+
+public interface ComplianceRecordRepository extends JpaRepository<ComplianceRecord,Long>{
 
 }
