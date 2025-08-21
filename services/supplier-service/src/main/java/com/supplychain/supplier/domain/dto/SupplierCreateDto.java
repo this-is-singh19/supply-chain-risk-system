@@ -1,7 +1,5 @@
 package com.supplychain.supplier.domain.dto;
 
-import java.time.LocalDateTime;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,16 +9,15 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class SupplierDto {
-    private Long id;
-    private String supplierCode;        // Business identifier
+public class SupplierCreateDto {
+    private String supplierCode;
     private String companyName;
     private String legalName;
     private String email;
     private String phone;
     private String country;
     private String region;
-    private String supplierType;        // String representation of enum
-    private String status;              // String representation of enum
-    private LocalDateTime onboardingDate;
+    private String supplierType;
+    private String businessRegistrationNumber;
+    private String taxId;
 }

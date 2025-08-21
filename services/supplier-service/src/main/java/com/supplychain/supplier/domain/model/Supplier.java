@@ -31,6 +31,8 @@ public class Supplier {
     private String supplierCode;
     private String companyName;
     private String legalName;
+    private String email;
+    private String phone;
     private String country;
     private String region;
     private enum SupplierType {
@@ -51,4 +53,6 @@ public class Supplier {
     @Enumerated(EnumType.STRING)
     private Status status;
     private LocalDateTime onboardingDate;
+    private String businessRegistrationNumber;
+    private String taxId;
 }
